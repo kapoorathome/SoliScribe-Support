@@ -1,27 +1,29 @@
 # SoliScribe: privacy policy and support
 
-**Last updated:** 6 October 2026
+**Last updated:** 19 October 2026
 
 ## Privacy policy
 
 SoliScribe is a Mac app that records, transcribes and searches conversations. It's made by Vivek Kapoor ("I" in this policy). This page explains what SoliScribe does with your information.
 
-In short: your recordings, transcripts and everything SoliScribe works out from them stay on your Mac. I don't run servers that receive them, and the app has no accounts, ads, analytics or tracking.
+In short: your recordings, transcripts and everything SoliScribe works out from them stay on your Mac. The one exception is Apple's cloud AI, which is off unless you switch it on (see below). I don't run servers that receive any of it, and the app has no accounts, ads, analytics or tracking.
 
 ### What stays on your Mac
 
 - **Audio** you record or import, kept in SoliScribe's own folder on your Mac.
-- **Transcripts**, with their summaries, notes, tags, highlights, chapters, folders and AI chat conversations.
-- **Speaker labels and remembered voices.** When you label speakers, SoliScribe works out who spoke when, on your Mac. If you choose "Remember this voice" or "This is me", it saves a voice fingerprint: a short list of numbers that describes how that person sounds, so SoliScribe can recognise them in later recordings. Voice fingerprints are kept only on your Mac and never sent anywhere. You can forget any of them in Settings ▸ Speaker labels.
+- **Transcripts**, with their summaries, notes, tags, highlights, chapters, folders and AI Brief conversations.
+- **Your dictionary.** Names and words you add in Settings ▸ Dictionary, and the ways the speech engine mishears them, are kept only on your Mac. If you use "Say it", SoliScribe listens for a few seconds to note how the word is heard; that sound is deleted as soon as it's written down.
+- **Speaker labels and remembered voices.** When you label speakers, SoliScribe works out who spoke when, on your Mac. If you choose "Remember this voice" or "This is me", it saves a voice fingerprint: a short list of numbers that describes how that person sounds, so SoliScribe can recognise them in later recordings. It also keeps a few seconds of that person talking, cut from the same recording, so you can play a saved voice to check who it is. Voice fingerprints and these clips are kept only on your Mac and never sent anywhere. You can play, rename, merge or forget any of them in Settings ▸ Speakers.
 - **Where imported files came from**, so SoliScribe can show them in Finder later.
 - **Your settings** and a **diagnostics log** (see "Diagnostics" below).
 
-None of this is sent to me or to anyone else unless you export or share it yourself.
+None of this is sent to me or to anyone else unless you export or share it yourself, or switch on Apple's cloud AI.
 
 ### How the work gets done
 
 - **Transcription** uses Apple's speech recognition, running on your Mac. The first time you use a language, macOS may download its speech files from Apple. Your audio isn't sent with that request.
-- **AI chat and summaries** use the Apple Intelligence model on your Mac. Your transcripts are read on your Mac and aren't sent to Apple or to me. If Apple Intelligence is turned off, these features stay off.
+- **AI Brief (questions and summaries)** uses the Apple Intelligence model on your Mac. Your transcripts are read on your Mac and aren't sent to Apple or to me. If Apple Intelligence is turned off, these features stay off.
+- **Apple's cloud AI (optional, off unless you choose it).** On Macs that support it, AI Brief has a "This Mac | Apple cloud" choice, also in Settings ▸ AI Brief. With it set to Apple cloud, the transcript you ask about (or, for questions about all your recordings, the parts relevant to your question), and your question, are sent to Apple's Private Cloud Compute to write the answer or summary. Apple uses them only to answer that request and doesn't keep them, and neither Apple nor I can see them. Nothing is sent to me. Set the switch back to This Mac at any time and everything is handled on your Mac again. Apple explains how Private Cloud Compute protects your data at security.apple.com/blog/private-cloud-compute.
 - **Speaker labels** use speaker-recognition models that run on your Mac. The Mac App Store version gets them from Apple along with the app. If Apple's copy can't be reached, SoliScribe downloads the same files from Hugging Face (huggingface.co). These downloads contain nothing about you or your recordings. As with any download, the server can see your Mac's IP address.
 
 ### Permissions SoliScribe asks for
@@ -48,7 +50,7 @@ Nothing. I don't receive your recordings, transcripts, voice fingerprints, conta
 
 ### Keeping and deleting your information
 
-Everything is stored on your Mac, so it's yours to keep or delete. You can delete transcripts, and the audio of any recording, in the app. To remove everything SoliScribe has stored, delete the app, then delete its folder in your Library: `~/Library/Containers/com.soliscribe.app`.
+Everything is stored on your Mac, so it's yours to keep or delete. You can delete transcripts, and the audio of any recording, in the app. Settings ▸ Recordings ▸ Keep audio can also delete older recordings' audio for you after 30 or 7 days, or not keep it at all; transcripts stay. To remove everything SoliScribe has stored, delete the app, then delete its folder in your Library: `~/Library/Containers/com.soliscribe.app`.
 
 ### Children
 
@@ -64,7 +66,7 @@ Under India's Information Technology Act, 2000 and the Digital Personal Data Pro
 
 ### Changes to this policy
 
-If SoliScribe starts handling your information differently, for example if a later version offers Apple's Private Cloud Compute as an option, I'll update this page before that version is released and change the date at the top.
+If SoliScribe starts handling your information differently, I'll update this page before that version is released and change the date at the top.
 
 ### Contact
 
@@ -74,13 +76,13 @@ Questions about this policy: **vivek@thealqmists.com**
 
 ## Getting help
 
-**What you need.** A Mac with Apple silicon running macOS 26 or later. AI chat and summaries need Apple Intelligence turned on (System Settings ▸ Apple Intelligence & Siri). Transcription works without it.
+**What you need.** A Mac with Apple silicon running macOS 26 or later. AI Brief needs Apple Intelligence turned on (System Settings ▸ Apple Intelligence & Siri). Transcription works without it.
 
 **Recording a call.** Switch on SYSTEM as well as MIC, and pick the app from the menu next to it (or record all of your Mac's sound). macOS will ask for Screen & System Audio Recording permission the first time.
 
-**Labelling speakers.** Open a finished transcript, press the Options key (the sliders) and choose Transcription tools ▸ Label speakers. The first run on a Mac takes a little longer while it prepares the model.
+**Labelling speakers.** If you chose "Automatically" in the quick start guide, speakers are labelled after every recording and import. To do it yourself, open a finished transcript, press the gold key at the right end of the seek bar and choose Label speakers. The first run on a Mac takes a little longer while it prepares the model.
 
-**Where your files are.** Settings ▸ Your recordings ▸ Show in Finder.
+**Where your files are.** Settings ▸ Recordings ▸ Show Audio Files in Finder.
 
 **Something not working?** Help ▸ Export Diagnostics saves a log you can attach to an email. It can contain short pieces of your transcripts, so read it first.
 
