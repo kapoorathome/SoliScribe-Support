@@ -39,7 +39,7 @@ Switch on Sync with iCloud (Mac: Settings ▸ Recordings; iPhone: Settings ▸ S
 ### Permissions SoliScribe asks for
 
 - **Microphone:** to record and transcribe what's said. SoliScribe asks the first time it needs it, and only listens while you're recording, trying the welcome demo or using "Say it" in the Dictionary (neither is saved).
-- **Screen & System Audio Recording (Mac):** only when you switch on SYSTEM to record sound from other apps, such as a call. SoliScribe uses it for sound only. It doesn't record or save pictures of your screen.
+- **Screen & System Audio Recording (Mac):** only when you switch on SYSTEM AUDIO to record sound from other apps, such as a call. SoliScribe uses it for sound only. It doesn't record or save pictures of your screen.
 - **Speech recognition:** to transcribe on your device.
 - **Calendars (Mac, optional):** read only, as described above.
 - **Notifications** (optional): for example, to tell you that a recording has gone silent, or that a call starts in a minute. They're created on your device and nothing is sent.
@@ -89,7 +89,7 @@ Questions about this policy: **vivek@thealqmists.com**
 
 **What you need.** A Mac with Apple silicon running macOS 26 or later, or an iPhone with iOS 26 or later. AI Brief needs Apple Intelligence turned on (System Settings ▸ Apple Intelligence & Siri). Transcription works without it.
 
-**Recording a call.** Switch on SYSTEM as well as MIC, and pick the app from the menu next to it (or record all of your Mac's sound). macOS will ask for Screen & System Audio Recording permission the first time.
+**Recording a call.** Switch on SYSTEM AUDIO as well as MIC, and pick the app from the menu next to it (or record all of your Mac's sound). macOS will ask for Screen & System Audio Recording permission the first time.
 
 **Labelling speakers.** If you chose "Automatically" in the quick start guide, speakers are labelled after every recording and import. To do it yourself, open a finished transcript, press the gold key at the right end of the seek bar and choose Label speakers. The first run on a Mac takes a little longer while it prepares the model.
 
